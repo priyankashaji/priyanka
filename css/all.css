@@ -1,0 +1,67 @@
+h1{
+  color: MidnightBlue;
+}
+ul li{
+  float:left;
+}
+ul {
+  overflow: hidden;
+  list-style-type: none;
+  background-color: gray;
+}
+ul li a {
+  display: block;
+  padding: 8px;
+  color: #dddddd;
+}
+.active {
+  background-color: black;
+}
+.center{
+  position:absolute;
+  left: 15%;
+  top: 20%;
+  font-size: 24px;
+
+}
+#main-h1{
+  position:absolute;
+  left:5%;
+
+}
+body{
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+ background-repeat: no-repeat;
+}
+#main-body{
+  background-image: url("../img/City_Landscape_Background.jpg");
+}
+/*about*/
+#about-body{
+background-image: url("../img/about_img.jpg");
+}
+#me{
+
+  float: left;
+}
+p{
+font-size: 24px;
+}
+/*portfolio*/
+#portfolio-body{
+  background-image: url("../img/portfolio.jpg");
+}
+
+#projects{
+  width: 50%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/*resume*/
+#resume-body{
+  background-image: url("../img/portfolio.jpg");
+}
