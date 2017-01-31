@@ -1,0 +1,30 @@
+#h1_home{
+  text-shadow: 0 0 3px #FF0000;
+}
+h1{
+  color: MidnightBlue;
+  font-family: myFirstFont;
+}
+
+ul {
+  overflow: hidden;
+  list-style-type: none;
+  background-color: SaddleBrown;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a:hover {
+  background-color: RosyBrown;
+}
+ul li a {
+  display: block;
+  padding: 8px;
+  color: #dddddd;
+}
+
+.active {
+  background-color: Maroon;
+}

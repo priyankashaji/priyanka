@@ -1,0 +1,75 @@
+<!doctype Html>
+<html>
+<head>
+  <style>
+  ul li{
+    float:left;
+  }
+  ul {
+    overflow: hidden;
+    list-style-type: none;
+    background-color: gray;
+  }
+  ul li a {
+    display: block;
+    padding: 8px;
+    color: #dddddd;
+  }
+  .active {
+    background-color: black;
+  }
+  h1{
+    color: MidnightBlue;
+    font-family: myFirstFont;
+
+  }
+  body{
+
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("img/portfolio.jpg");
+  }
+
+  #projects{
+    width: 50%;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+  </style>
+</head>
+<body>
+
+<div>
+<ul>
+  <li><a href="main.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a class ="active" href="portfolio.html">Protfolio</a></li>
+  <li><a href="resume.html">Resume</a></li>
+
+</div>
+<h1><em>My Projects</em></h1>
+<table id=projects>
+  <col width="100">
+  <col width="130">
+  <col width="100">
+  <tr>
+    <th>Project Name</th>
+    <th>Description</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>Maranatha Evangelistic Ministries</td>
+    <td>Website of Maranatha Evangelistic Ministries, Farmington Hills, MI, a christian non-profit organisation</td>
+    <td><a href="http://www.memchurch.org" target="_blank">MEM Church</td>
+  </tr>
+  <tr>
+    <td>Shaji Portfolio</td>
+    <td>My portfolio, a prework for Grand Circus Front-End bootcamp</td>
+    <td><a href="https://github.com/priyankashaji/shajiPortfolio" target="_blank">Shaji portfolio</td>
+  </tr>
+</table>
+</body>
+</html>

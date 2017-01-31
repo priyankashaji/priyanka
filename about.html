@@ -1,0 +1,64 @@
+<!doctype Html>
+<html>
+<head>
+  <style>
+  ul li{
+    float:left;
+  }
+  ul {
+    overflow: hidden;
+    list-style-type: none;
+    background-color: gray;
+  }
+  ul li a {
+    display: block;
+    padding: 8px;
+    color: #dddddd;
+  }
+  .active {
+    background-color: black;
+  }
+  h1{
+    color: MidnightBlue;
+    font-family: myFirstFont;
+
+  }
+/* h1{
+    position: absolute;
+    left:5%;
+
+  }*/
+  body{
+
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("img/about_img.jpg");
+  }
+  #me{
+
+    float: left;
+  }
+  p{
+  font-size: 24px;
+  }
+  </style>
+</head>
+<body>
+
+<div>
+<ul>
+  <li><a href="main.html">Home</a></li>
+  <li><a class ="active" href="about.html">About</a></li>
+  <li><a href="portfolio.html">Protfolio</a></li>
+  <li><a href="resume.html">Resume</a></li>
+
+</div>
+<h1><em>About Me</em></h1><br>
+<img id="me" src="img/me.jpg" alt="Priyanka" height="200" width="200">
+<p>Hi I am Priyanka Shaji. I graduated BS in Computer Science in 2009.
+  I am developing and maintaining  websites for non profit organisations such as <a href="http://www.memchurch.org" target="_blank"> Maranatha Evangelistic Ministries</a> using wordpress.
+  This inspired me to learn more about front-end development.
+</p>
+</body>
+</html>
