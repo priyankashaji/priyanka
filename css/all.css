@@ -33,7 +33,7 @@ body{
   height: 100%;
   width: 100%;
   background-size: cover;
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 #main-body{
   background-image: url("../img/City_Landscape_Background.jpg");
@@ -43,24 +43,63 @@ body{
 background-image: url("../img/about_img.jpg");
 }
 #me{
-
-  float: left;
+    border-radius: 50%;
+    float: left;
 }
 p{
 font-size: 24px;
 }
+div.relative {
+    position: relative;
+    margin:80px 150px 40px 80px;
+  }
+/*  div.relative ul li{
+      background-image: ;
+  }*/
 /*portfolio*/
 #portfolio-body{
   background-image: url("../img/portfolio.jpg");
 }
+.container{
+position:absolute;
+width:100%
+margin-left:auto;
+margin-right:auto;
+}
+.project{
+  position:relative;
+  float:left;
+  margin:10px;
+  padding:10px;
+  background-color:white;
+  border-radius:8px;
+  height: 350px;
+  width: 30%;
+}
+.pic{
+  position:absolute;
+  margin:10px;
+  padding:10px;
+  top:0px;
+  align-self: center;
+  background-color:gray;
+  border-radius: 8px;
+  height:200px;
+  width:300px;
+}
+h2{
+  position:absolute;
+  top:225px;
 
-#projects{
-  width: 50%;
+
 }
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+p{
+  position:relative;
+  top:235px;
+  font-size: 24px;
+
 }
+
 /*resume*/
 #resume-body{
   background-image: url("../img/portfolio.jpg");

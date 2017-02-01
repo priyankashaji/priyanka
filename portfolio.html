@@ -2,6 +2,11 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/all.css">
+  <style>
+  .container{
+  display: grid | inline-grid | subgrid;
+}
+  </style>
 </head>
 <body id="portfolio-body">
 
@@ -14,25 +19,40 @@
 
 </div>
 <h1><em>My Projects</em></h1>
-<table id=projects>
-  <col width="100">
-  <col width="130">
-  <col width="100">
-  <tr>
-    <th>Project Name</th>
-    <th>Description</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td>Maranatha Evangelistic Ministries</td>
-    <td>Website of Maranatha Evangelistic Ministries, Farmington Hills, MI, a christian non-profit organisation</td>
-    <td><a href="http://www.memchurch.org" target="_blank">MEM Church</td>
-  </tr>
-  <tr>
-    <td>Shaji Portfolio</td>
-    <td>My portfolio, a prework for Grand Circus Front-End bootcamp</td>
-    <td><a href="https://github.com/priyankashaji/shajiPortfolio" target="_blank">Shaji portfolio</td>
-  </tr>
-</table>
+<div class="container">
+  <div class="project">
+     <img class="pic" src="img/mem.jpg" alt="MEM" height="200px" width="300px">
+        <a href="http://www.memchurch.org" target="_blank"> <h2>Maranatha Evangelistic Ministries</h2></a>
+         <p>Website of Maranatha Evangelistic Ministries, Farmington Hills, MI, a christian non-profit organisation</p>
+   </div>
+
+   <div class="project">
+     <img class="pic" src="img/shaji_portfolio.jpg" alt="Shaji portfolio" height="200px" width="300px">
+        <a href="https://github.com/priyankashaji/shajiPortfolio" target="_blank"> <h2>Shaji Portfolio</h2></a>
+        <p>My portfolio, a prework for Grand Circus Front-End bootcamp</p>
+    </div>
+
+   <div class="project">
+     <img class="pic" src="img/priyanka.jpg" alt="Priyanka" height="200px" width="300px">
+          <a href="https://github.com/priyankashaji/priyanka" target="_blank"><h2>Priyanka Shaji</h2></a>
+        <p>Grand Circus Front-End bootcamp couse work, My personal website</p>
+
+   </div>
+   <div class="project">
+     <img class="pic" src="#"/>
+        <h2>Maranatha Evangelistic Ministries</h2>
+        <p>Website of Maranatha Evangelistic Ministries, Farmington Hills, MI, a christian non-profit organisation</p>
+   </div>
+  <div class="project">
+    <img class="pic" src="#"/>
+        <h2>Maranatha Evangelistic Ministries</h2>
+        <p>Website of Maranatha Evangelistic Ministries, Farmington Hills, MI, a christian non-profit organisation</p>
+  </div>
+  <div class="project">
+    <img class="pic" sr="#"/>
+        <h2>Maranatha Evangelistic Ministries</h2>
+        <p>Website of Maranatha Evangelistic Ministries, Farmington Hills, MI, a christian non-profit organisation</p>
+  </div>
+</div>
 </body>
 </html>
