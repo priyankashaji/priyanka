@@ -1,47 +1,49 @@
 h1{
-  color: MidnightBlue;
+    color: MidnightBlue;
+}
+#main-h1{
+top:10%;
+float: left;
 }
 ul li{
   float:left;
 }
 ul {
+  float: right;
   overflow: hidden;
   list-style-type: none;
-  background-color: gray;
 }
 ul li a {
   display: block;
-  padding: 8px;
-  color: #dddddd;
-}
+  padding: 25px;
+  color: black;
+      }
+a:hover{
+        background-color: gray;
+      }
 .active {
-  background-color: black;
+  background-color: lightgray;
 }
 .center{
-  position:absolute;
-  left: 15%;
-  top: 20%;
+  text-align: center;
+  top: 50%;
   font-size: 24px;
-
-}
-#main-h1{
-  position:absolute;
-  left:5%;
-
 }
 body{
+  background-color: #FDF3D9;
+}
+/*  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+*/
+#main-body{
   height: 100%;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
-#main-body{
-  background-image: url("../img/City_Landscape_Background.jpg");
-}
 /*about*/
-#about-body{
-background-image: url("../img/about_img.jpg");
-}
 #me{
     border-radius: 50%;
     float: left;
@@ -129,8 +131,6 @@ h2{
   position:absolute;
   */
   top:225px;
-
-
 }
 p{
   /*
@@ -143,5 +143,6 @@ p{
 
 /*resume*/
 #resume-body{
-  background-image: url("../img/portfolio.jpg");
+  background-color: #FDF3D9;
+
 }
